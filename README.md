@@ -15,7 +15,7 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 | Irsyad Alfayyadh Wibowo | 2902693052 |
 | Excel Rizky Nazaraya | 2902691173 |
 
-**Kelas:** `<kelas>`
+**Kelas:** `LB80`
 
 ## Teknologi yang Digunakan
 
