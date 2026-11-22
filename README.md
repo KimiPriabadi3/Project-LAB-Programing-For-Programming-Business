@@ -49,5 +49,5 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 - Manage Brands (tambah dan edit lewat popup, hapus)
 - View Transactions
 
-Setiap halaman menampilkan nama Member atau Admin yang sedang login.
+
 
