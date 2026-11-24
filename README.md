@@ -22,7 +22,7 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 - **Bahasa:** PHP 
 - **Database:** 
 - **Server:** XAMPP 8.2.12 
-- **Editor:** Visual Studio Code
+- **Editor:** Visual Studio Code App
 - **Frontend:** HTML, CSS, JavaScript
 
 ## Role Pengguna dan Fitur
