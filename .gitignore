@@ -1,0 +1,14 @@
+# File sampah sistem
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Pengaturan editor
+.vscode/
+.idea/
+
+# File tes dan sementara
+tes.php
+test.php
+*.log
+*.tmp
