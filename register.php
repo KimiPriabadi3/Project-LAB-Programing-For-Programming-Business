@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "config/koneksi.php";
+include "cek_cookie.php";
 $halaman = "register";
 
 // kalau sudah login, tidak perlu register lagi

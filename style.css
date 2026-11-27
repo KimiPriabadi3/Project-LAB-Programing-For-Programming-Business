@@ -59,6 +59,24 @@ nav{
     padding: 10px 18px;
 }
 
+#nav-right a.active{
+    border-bottom: 2px solid rgb(122, 26, 15);
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+}
+
+#login-error{
+    text-align: center;
+    font-size: 14px;
+}
+
 footer{
     display: flex;
     justify-content: center;

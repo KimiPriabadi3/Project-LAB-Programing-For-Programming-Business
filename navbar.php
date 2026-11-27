@@ -35,7 +35,7 @@ if (!isset($halaman)) {
 
     <div id="nav-right">
         <?php if ($role == "guest") { ?>
-            <a href="login.php">LOGIN</a>
+            <a href="login.php" class="<?php if ($halaman == 'login') { echo 'active'; } ?>">LOGIN</a>
             <a href="register.php" id="btn-register">REGISTER</a>
         <?php } else { ?>
             <span>Halo, <?php echo $_SESSION['userName']; ?></span>
