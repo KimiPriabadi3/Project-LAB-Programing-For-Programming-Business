@@ -20,7 +20,7 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 ## Teknologi yang Digunakan
 
 - **Bahasa:** PHP 
-- **Database:** my sql
+- **Database:** MySQl & Apache
 - **Server:** XAMPP 8.2.12 
 - **Editor:** Visual Studio Code App
 - **Frontend:** HTML, CSS, JavaScript
@@ -48,6 +48,7 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 - Add / Edit Product
 - Manage Brands (tambah dan edit lewat popup, hapus)
 - View Transactions
+- hihi
 
 
 
