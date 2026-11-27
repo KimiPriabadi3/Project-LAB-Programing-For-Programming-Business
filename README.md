@@ -20,7 +20,7 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 ## Teknologi yang Digunakan
 
 - **Bahasa:** PHP 
-- **Database:** MySQl & Apache
+- **Database:** MySQl 
 - **Server:** XAMPP 8.2.12 
 - **Editor:** Visual Studio Code App
 - **Frontend:** HTML, CSS, JavaScript
@@ -48,7 +48,10 @@ L&W adalah platform ritel premium tempat pelanggan bisa menjelajahi, mencari, da
 - Add / Edit Product
 - Manage Brands (tambah dan edit lewat popup, hapus)
 - View Transactions
-- hihi
+
+### L&W's Owner
+<img width="1576" height="1258" alt="e9724855-3f8f-4033-bcb3-5dca24a6e5bd" src="https://github.com/user-attachments/assets/41da4597-e743-4590-a08c-4a39af7aaf90" />
+<b><i>Under the quiet reign of three brothers wandering the streets of Bekasi... Following the ghosts of stars, defying cold algorithms, finding solace in the warmth of Geprek Pak Idul.</i></b>
 
 
 
