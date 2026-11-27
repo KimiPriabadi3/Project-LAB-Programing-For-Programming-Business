@@ -20,7 +20,7 @@ $passwordError = "";
 $loginError = "";
 
 if (isset($_POST['login'])) {
-    $email = $_POST['email'];
+    $email = trim($_POST['email']);
     $password = $_POST['password'];
 
     $emailSql = mysqli_real_escape_string($conn, $email);
@@ -86,7 +86,7 @@ if (isset($_POST['login'])) {
 
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" value="<?php echo $email; ?>">
+                <input type="text" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
                 <span class="error-msg"><?php echo $emailError; ?></span>
             </div>
 

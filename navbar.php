@@ -1,12 +1,12 @@
 <?php
-
+// kalau belum login berarti guest
 if (isset($_SESSION['userRole'])) {
     $role = $_SESSION['userRole'];
 } else {
     $role = "guest";
 }
 
-
+// $halaman diisi di tiap halaman, dipakai buat garis bawah menu yang aktif
 if (!isset($halaman)) {
     $halaman = "";
 }
@@ -38,7 +38,7 @@ if (!isset($halaman)) {
             <a href="login.php" class="<?php if ($halaman == 'login') { echo 'active'; } ?>">LOGIN</a>
             <a href="register.php" id="btn-register">REGISTER</a>
         <?php } else { ?>
-            <span>Halo, <?php echo $_SESSION['userName']; ?></span>
+            <span>Halo, <?php echo htmlspecialchars($_SESSION['userName']); ?></span>
             <?php if ($role == "member") { ?>
                 <a href="cart.php">CART</a>
             <?php } ?>

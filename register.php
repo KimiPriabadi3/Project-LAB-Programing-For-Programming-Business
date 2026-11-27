@@ -18,8 +18,9 @@ $passwordError = "";
 $confirmError = "";
 
 if (isset($_POST['register'])) {
-    $username = $_POST['username'];
-    $email = $_POST['email'];
+    // trim membuang spasi di awal dan akhir
+    $username = trim($_POST['username']);
+    $email = trim($_POST['email']);
     $password = $_POST['password'];
     $confirm = $_POST['confirm'];
 
@@ -48,7 +49,7 @@ if (isset($_POST['register'])) {
     if ($email == "") {
         $emailError = "Email harus diisi";
         $valid = false;
-    } else if (substr($email, -10) != "@gmail.com") {
+    } else if (substr($email, -10) != "@gmail.com" || strlen($email) <= 10) {
         $emailError = "Email harus berakhiran @gmail.com";
         $valid = false;
     } else {
@@ -102,13 +103,13 @@ if (isset($_POST['register'])) {
 
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" value="<?php echo $username; ?>">
+                <input type="text" id="username" name="username" value="<?php echo htmlspecialchars($username); ?>">
                 <span class="error-msg"><?php echo $usernameError; ?></span>
             </div>
 
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" value="<?php echo $email; ?>">
+                <input type="text" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>">
                 <span class="error-msg"><?php echo $emailError; ?></span>
             </div>
 
